@@ -1,0 +1,141 @@
+
+@font-face {
+	font-family: 'oleo-cript';
+	font-style: normal;
+	font-weight: 400;
+	src: local('oleo-script'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'poiret-one';
+	font-style: normal;
+	font-weight: 400;
+	src: local('poiret-one'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}
+
+body {
+margin: 0 auto;
+}
+
+.site-header{
+  background: url('../img/header-background.jpg');
+  height: 400px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+/*.header-wrapper{
+  height: 400px;
+  text-align: center;
+  z-index: 0;
+}*/
+
+.main-heading{
+  font-size: 2.6em;
+  font-style: normal;
+  font-family: 'poiret-one';
+  /*font-weight: 400;*/
+  color: #fff;
+  z-index: 4;
+  width: 100%;
+  text-shadow: 1px 1px 2px black;
+  position: absolute;
+  top: 50px;
+}
+divider{
+
+}
+.subheader-msg{
+  font-size: 1.2em;
+  /*font-style: normal;*/
+  /*font-weight: 400;*/
+  font-family: 'oleo-script';
+  color: #fff;
+  z-index: 3;
+  text-shadow: 1px 1px 2px black;
+  padding-top: 250px;
+  font-size: 1em;
+}
+.logo{
+  background-image: url("../img/logo.png");
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: invert(100%);
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  top: 60px;
+  left: 63%;
+  background-position: center;
+  margin: 5px;
+
+}
+#left-img{
+  background-image: url("../img/left-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+#middle-img{
+  background-image: url("../img/middle-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+}
+#right-img{
+  background-image: url("../img/right-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.callout-wraper{
+  background-color: green;
+
+}
+.callout-msg{
+  text-align: center;
+  position: relative;
+  flex: auto;
+  background-color: green;
+  font-size: 1.8em;
+  font-family: 'poiret-one';
+  text-shadow: 1px 1px 2px black;
+  /*font-style: normal;*/
+  font-weight: 400;
+  color: white;
+}
+.primary-text{
+  width: 65%;
+  margin-left: 200px;
+}
+.contact-msg{
+  font-family: 'poiret-one';
+  text-align: center;
+}
+.contact-phone{
+  font-family: 'poiret-one';
+  text-align: center;
+}
+.fa-envelope-o{
+  padding-left: 550px;
+}
+footer{
+  background-color: black;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'poiret-one';
+  padding-top: 10px;
+}
